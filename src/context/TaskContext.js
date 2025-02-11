@@ -10,7 +10,7 @@ export const TaskContextProvider = ({ children }) => {
   const [completedTask, setCompletedTask] = useState([]);
   const [failedTask, setFailedTask] = useState([]);
   const allTasks = JSON.parse(localStorage.getItem("tasks"));
-  const [tasks, setTasks] = useState(null);
+  const [tasks, setTasks] = useState();
   useEffect(()=>{
     setTasks(allTasks);
   },[])

@@ -4,10 +4,10 @@ import CreateTask from '../CreateTask';
 
 const AdminDashboard = () => {
   return (
-    <>
+    <div >
     <Header></Header>
     <CreateTask/>
-    </>
+    </div>
 
   );
 };

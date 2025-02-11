@@ -11,8 +11,8 @@ function TaskNumbers({ bgColor, taskName, taskNumbers,length }) {
       }}
     >
       <div className="font-extrabold flex flex-col items-center">
-        <span className="text-5xl">{length }</span>
-        <span className="text-3xl">{taskName}</span>
+        <span className="text-5xl font-normal">{length }</span>
+        <span className="text-3xl font-normal">{taskName}</span>
       </div>
     </div>
   );

@@ -5,14 +5,14 @@ import AdminDashboard from "./components/Dashboard/AdminDashboard";
 import EmployeeDashboard from "./components/Dashboard/EmployeeDashboard";
 import { AuthContext } from "./context/AuthContext";
 import { setLocalStorage } from "./utils/localStorage";
-
+import './App.css'
 function App() {
-setLocalStorage();
+setLocalStorage(); 
 // localStorage.clear();
   const [user, setUser] = useState(null);
   const [loggedInUserData, setLoggedInUserData] = useState(null);
   const AuthData = useContext(AuthContext);
-
+console.log("authdata :", AuthData)
   useEffect(() => {
     const loggedInUser = localStorage.getItem("loggedInUser");
 

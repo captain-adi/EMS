@@ -10,16 +10,16 @@ function TaskList() {
   return (
     <div
       id="tasklist"
-      className="h-[55%] px-2 bg-gray-500 overflow-x-auto w-full mt-10 flex items-center gap-10 flex-nowra"
+      className="h-[55%] px-2  overflow-x-auto w-full mt-10 flex items-center gap-10 flex-nowra"
     >
-      {showTaskList == "NewTask" ? (
+      {showTaskList === "NewTask" ? (
         <NewTask />
-      ) : showTaskList == "Active" ? (
+      ) : showTaskList === "Active" ? (
         <AcceptTask />
-      ) : showTaskList == "Completed" ? (
+      ) : showTaskList === "Completed" ? (
         <CompleteTask />
     
-      ) : showTaskList == "Failed" ? (
+      ) : showTaskList === "Failed" ? (
         <FailedTask />
       ) : (
         ""
