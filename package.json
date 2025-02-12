@@ -9,8 +9,8 @@
     "react-scripts": "^3.0.1",
     "web-vitals": "^4.2.4"
   },
-  "scripts": {
-      "eslintBuild": "CI=false react-scripts build",
+  "scripts": { 
+    "eslintBuild": "CI=false react-scripts build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
