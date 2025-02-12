@@ -72,7 +72,7 @@ const admin = [
 
 const tasks = [{
   title:'You should complete a UI for a website and the theme is GYM',
-  description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos numquam cum non. Repellendus tenetur animi tempora, non quam consequuntur molestias enim asperiores, officia sint praesentium. Totam cumque error neque praesentium voluptatem quia nemo accusamus dicta aliquid expedita, cum odit voluptatum perferendis vitae architecto tempora maiores natus? Praesentium repellendus sed laboriosam ratione dolorem. Odit, distinctio expedita! Beatae quia debitis accusamus libero porro dolores amet. Facere maiores blanditiis nihil quam, quo ipsam ipsum ratione cumque veritatis magni maxime quas culpa tempora impedit in fuga id reprehenderit magnam dolorum tempore illum eum quia totam non. Error magni, ipsa exercitationem quasi nemo omnis illo officiis pariatur, enim aliquid debitis officia! Similique ad perspiciatis ullam in, enim error doloremque! Odit vitae autem, sequi dicta et doloribus ipsum porro pariatur minima nemo ab possimus veritatis eum amet incidunt aspernatur necessitatibus quas, sapiente quibusdam. Ab labore iste inventore, natus ratione nostrum architecto doloremque deserunt, nam reprehenderit in?",
+  description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos numquam cum non. Repellendus tenetur animi tempora, non quam consequuntur molestias enim asperiores, officia sint praesentium.",
   cetogery:"High",
   date:"2/23/2025"
 }]

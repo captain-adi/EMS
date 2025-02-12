@@ -9,7 +9,7 @@ function NewTask() {
       {tasks.map((task, index) => {
         return (
           <>
-            <div key={index} className="h-[90%] ">
+            <div key={index} className="h-[90%]  ">
               <div className="bg-gradient-to-tr flex flex-col from-sky-300 to-indigo-400  h-full w-[350px] rounded-3xl flex-shrink-0 p-7 justify-between">
                 <div className="flex justify-between flex-col">
                   <div className="flex justify-between">

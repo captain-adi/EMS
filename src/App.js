@@ -24,12 +24,12 @@ console.log("authdata :", AuthData)
   }, []);
 
   const handleLogin = (email, password) => {
-    if (email == "admin@gmail.com" && password == "123") {
+    if (email === "admin@gmail.com" && password === "123") {
       setUser("admin");
       localStorage.setItem("loggedInUser", JSON.stringify({ role: "admin" }));
     } else if (AuthData) {
       const employee = AuthData.employees.find(
-        (e) => email == e.email && e.password == password
+        (e) => email === e.email && e.password === password
       );
       if (employee) {
         setUser("employee");
@@ -48,7 +48,7 @@ console.log("authdata :", AuthData)
     <>
       {!user ? (
         <Login handleLogin={handleLogin} />
-      ) : user == "admin" ? (
+      ) : user === "admin" ? (
         <AdminDashboard />
       ) : (
         <EmployeeDashboard />
